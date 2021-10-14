@@ -7,7 +7,9 @@ namespace ConsoleCommunicator
 
         static void Main(string[] args)
         {
-            ConsoleCommunicator myConsoleCommunicator = new ConsoleCommunicator();
+            Console.WriteLine("Hello World");
+            ConsoleCommunicator myCommunicator = new ConsoleCommunicator();
+
         }
     }
 }

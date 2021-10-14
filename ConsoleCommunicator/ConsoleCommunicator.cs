@@ -1,45 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 
 namespace ConsoleCommunicator
 {
 
     class ConsoleCommunicator
     {
+
+        public class StateObject
+        {
+            public Socket workSocket = null;
+            public const int bufferSize = 1024;
+            public byte[] buffer = new byte[bufferSize];
+            public StringBuilder sb = new StringBuilder();
+            //private ManualResetEvent allDone = new ManualResetEvent(false);
+        }
         public ConsoleCommunicator()
         {
-            start();
+            IPAddress SerwerAddress = IPAddress.Parse("127.0.0.5");
+            //IPEndPoint localEndPoint = new IPEndPoint(address, 5001);
+            Socket serwerSocket = new Socket(SerwerAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+            serwerSocket.Connect(new IPEndPoint(SerwerAddress, 5001));
+            Send(serwerSocket, "hiiii");
         }
 
-        void start()
+        private void Send(Socket hostSocket, string data)
         {
-            ConsoleInterface();
-        }
-        void ConsoleInterface()
-        {
-            Console.WriteLine("Welcome in ConsoleCommunicator, make a choice");
-            Console.WriteLine("[1] to send a message");
-            Console.WriteLine("[2] to ad new contact");
-            Console.WriteLine("[3] to delete a contact");
-
-            int choice_ = Int32.Parse(Console.ReadLine());
-
-            ConsoleInterfaceSwitch(choice_);
+            byte[] byteData = Encoding.ASCII.GetBytes(data);
+            hostSocket.BeginSend(byteData, 0, byteData.Length, 0,
+                new AsyncCallback(SendCallback), hostSocket);
         }
 
-        void ConsoleInterfaceSwitch(int inputChoice)
+        private void SendCallback(IAsyncResult ar)
         {
-            switch (inputChoice)
+            try
             {
-                case 1:
-                    Console.WriteLine("u have typed [1]");
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
+                Socket hostSocket = (Socket)ar.AsyncState;
+                int byteSent = hostSocket.EndSend(ar);
+                //allDone.Set();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
         }
+
+
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.exe
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.deps.json
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.runtimeconfig.json
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.runtimeconfig.dev.json
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.dll
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\bin\Debug\netcoreapp3.1\SerwerConsoleCommunicator.pdb
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.csproj.AssemblyReference.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.AssemblyInfoInputs.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.AssemblyInfo.cs
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.csproj.CoreCompileInputs.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.dll
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.pdb
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\SerwerConsoleCommunicator\obj\Debug\netcoreapp3.1\SerwerConsoleCommunicator.genruntimeconfig.cache
