@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleCommunicator", "ConsoleCommunicator\ConsoleCommunicator.csproj", "{64A855FC-A494-4B2C-B3B4-3FBF486BFC03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerwerConsoleCommunicator", "SerwerConsoleCommunicator\SerwerConsoleCommunicator.csproj", "{225F56EC-0A37-4CFD-ACF6-64F0ED4D02F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerwerConsoleCommunicator", "SerwerConsoleCommunicator\SerwerConsoleCommunicator.csproj", "{225F56EC-0A37-4CFD-ACF6-64F0ED4D02F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{085D724B-B342-41C6-BB8D-DF0AB8312181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{225F56EC-0A37-4CFD-ACF6-64F0ED4D02F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225F56EC-0A37-4CFD-ACF6-64F0ED4D02F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225F56EC-0A37-4CFD-ACF6-64F0ED4D02F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085D724B-B342-41C6-BB8D-DF0AB8312181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085D724B-B342-41C6-BB8D-DF0AB8312181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085D724B-B342-41C6-BB8D-DF0AB8312181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085D724B-B342-41C6-BB8D-DF0AB8312181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

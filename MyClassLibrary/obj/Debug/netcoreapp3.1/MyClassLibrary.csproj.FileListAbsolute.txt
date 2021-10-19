@@ -1,0 +1,10 @@
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.deps.json
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.dll
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\bin\Debug\netcoreapp3.1\MyClassLibrary.pdb
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.csproj.AssemblyReference.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.AssemblyInfoInputs.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.AssemblyInfo.cs
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.dll
+C:\Users\palek\source\repos\Coding\1\ConsoleCommunicator\ConsoleCommunicator\MyClassLibrary\obj\Debug\netcoreapp3.1\MyClassLibrary.pdb

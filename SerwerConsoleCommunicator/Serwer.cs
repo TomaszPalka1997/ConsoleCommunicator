@@ -4,12 +4,14 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using MyClassLibrary;
 
 namespace SerwerConsoleCommunicator
 {
     class Serwer
     {
         private static ManualResetEvent done = new ManualResetEvent(false);
+        private Dictionary<string, Socket> connectedSockets = new Dictionary<string, Socket>();
 
         public class StateObject
         {
@@ -74,7 +76,8 @@ namespace SerwerConsoleCommunicator
                 int read = handler.EndReceive(ar);
                 state.sb.Append(Encoding.ASCII.GetString(state.buffer, 0, read));
                 var content = state.sb.ToString();
-
+                connectedSockets.Add("h1", handler);
+                //Console.WriteLine(connectedSockets["h1"]);
 
                 //Send(handler, content);
                 Console.WriteLine(content);
@@ -91,6 +94,11 @@ namespace SerwerConsoleCommunicator
         {
             byte[] data = Encoding.ASCII.GetBytes(content);
             handler.BeginSend(data, 0, data.Length, 0, new AsyncCallback(SendCallback), handler);
+        }
+
+        private Socket getUserSocketByName (string name)
+        {
+            return connectedSockets[name];
         }
 
         private void SendCallback(IAsyncResult ar)
